@@ -29,6 +29,7 @@ Consider that one of the most popular content management systems is also conside
 
 Some things are just difficult - building applications that humans use is hard, and will probably be hard for at least the near future.
 
+<img width="200px" class="rounded float-start pe-4" src="../img/MIPS.jpg">
 ## In the context of engineering
 
 Ever hear people ragging on engineering companies for delivering late and way over budget? Well, some engineering jobs are really difficult, especially if the requirements and funding are undulating underneath you. Because of the nature of the problem, sometimes engineering firms require large amounts of engineers and workers, inviting further problems and delays.
