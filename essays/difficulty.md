@@ -11,37 +11,25 @@ labels:
 
 <img width="200px" class="rounded float-start pe-4" src="../img/TS.jpg">
 
-Offering both unparalleled ease of use and readability, these rarely unsung virtues find themselves manifested in none other than Typescript itself. For years, Javascript programmers often found themselves frantic with frustration and fraught with fear when saddled with maintaining a codebase built by predecessors of years gone by. Many horrors were found between a second and third “=” sign, or at least, those were the tales I’ve heard. This led many programmers to be champing at the bit for a better paradigm and language  - something like Typescript that could provide comfort through its handling of type safety. 
+Offering both unparalleled ease of use and readability, these rarely unsung virtues find themselves manifested in none other than Typescript itself. For years, Javascript programmers often found themselves frantic with frustration and fraught with fear when saddled with maintaining a codebase built by predecessors of years gone by. 
 
-## In the context of programming
+Many horrors were found between a second and third “=” sign, or at least, those were the tales I’ve heard. This led many programmers to be champing at the bit for a better paradigm and language  - something like Typescript that could provide comfort through its handling of type safety. 
 
-In the context of programming, this has always been true. The difficult problems have always been different, although changes in technology can change the landscape quite a bit. "Business" type applications are the things that come to mind for me. Those types of applications are usually coupled in some way with people ... and people are awfully hard to deal with!
+## My Own Struggles And Considerations 
 
-Consider that one of the most popular content management systems is also considered the most horrible - Wordpress. But really, is there anything that fills that need? If it was so easy in the first place, where is the solution? Where's the magic CMS that is designed well enough that everyone hops on the boat to use it?
+Similarly, I find myself also in a state of gratitude of having transitioned towards a new language to learn. As a result of having spent the last year learning C, Verilog, and MIPS assembly language -  I found myself remarkably fatigued. Thus, this outlines the contrast of my experience with many Javascript developers.
 
-Some things are just difficult - building applications that humans use is hard, and will probably be hard for at least the near future.
+I have been so entrenched with incredibly strict and low level languages over the past year that this recent transition has brought many boons and struggles. Admittedly, it has been a wonderful experience not having to worry about allocating memory, whether to declare a variable as a wire or a register, or the size of a data type.
+
+However, I have often found myself struggling with programming under time pressure especially with syntax that is not deeply ingrained in me. This has been my major difficulty in the course so far - that is, adapting from one style of programming to a more fast and loose kind.
 
 <img width="200px" class="rounded float-start pe-4" src="../img/MIPS.jpg">
-## In the context of engineering
 
-Ever hear people ragging on engineering companies for delivering late and way over budget? Well, some engineering jobs are really difficult, especially if the requirements and funding are undulating underneath you. Because of the nature of the problem, sometimes engineering firms require large amounts of engineers and workers, inviting further problems and delays.
+## Developing As An Engineer
 
-The Honolulu Rail project at home has become this sort of poster child of failure, budget overrun and overall incompetence in Hawaii. Well, working though regulatory boards and fiscal procedures in Hawaii seems like it's a mind bogglingly difficult job to do. Granted, there might be some fishy stuff going on, but I refuse to believe that everyone is involved for nefarious reasons.
+Yet, I still look forward to the athletic software engineering that this class structure is hoping to provide. It seems to me that this will result in me becoming a much more well-rounded programmer, and I think that I will be confident with this style of programming given enough time. 
 
-The problem of creating an unprecedented public transportation backbone on an island is difficult! I'm not sure we would have done it right, even if the best people were involved.
+The practice WODS have been very helpful in getting me back up to speed in more traditional coding exercises. Specifically, I am referring to the interview questions that are asked for software developer positions. It is important to remember that there is not always time for long and critical thought - a philosophy that I believe this class enforces and maintains. 
 
-## In the context of relationships
+I can imagine that this will be nothing but a great help to me as I advance in my career, and I am excited for my path into web development - with all of its winding and twisting. 
 
-So in the end, we realize that all engineering and programming is there for a reason - to serve human needs. Maybe that's why those things are difficult, because they both involve humans and are for humans.
-
-Relationships, regardless if they're romantic or not take work. Humans are fickle creatures and relationships can come and go with the wind. To properly maintain something over time requires work. Family takes work. Marriage takes work. We live to figure out what works and what doesn't and hope that as we move forward we're improving.
-
-Relationships have always been difficult, and by nature will continue to be so.
-
-## Okay!
-
-So back to the original premise; why is being one of the club officers so difficult?
-
-And the final answer - it's supposed to be difficult, and it's supposed to challenge you, just like everything else that humans do that is difficult: programming, engineering, engaging in relationships, pondering the universe, etc.
-
-Ultimately the question you should really ask yourself if something if particularly difficult is then "is it worth it"? That is something that is context specific and only you can answer yourself.
