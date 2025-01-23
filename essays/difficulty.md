@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: "Typescript: A Revenant or A Respite?"
 # All dates must be YYYY-MM-DD format!
-date: 2016-02-06
+date: 2025-01-23
 published: true
 labels:
   - Engineering
@@ -30,6 +30,5 @@ However, I have often found myself struggling with programming under time pressu
 Yet, I still look forward to the athletic software engineering that this class structure is hoping to provide. It seems to me that this will result in me becoming a much more well-rounded programmer, and I think that I will be confident with this style of programming given enough time. 
 
 The practice WODS have been very helpful in getting me back up to speed in more traditional coding exercises. Specifically, I am referring to the interview questions that are asked for software developer positions. It is important to remember that there is not always time for long and critical thought - a philosophy that I believe this class enforces and maintains. 
-
 I can imagine that this will be nothing but a great help to me as I advance in my career, and I am excited for my path into web development - with all of its winding and twisting. 
 
