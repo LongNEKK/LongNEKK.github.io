@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/Verilog.png
+image: img/verilog.png
 title: ""
 date: 2023
 published: true
@@ -14,47 +14,10 @@ summary: "An 8 operation ALU (Arithmetic Logic Unit) for two 4 bit integers I de
 
 <img class="img-fluid" src="../img/cotton/ALU.png">
 
-Cotton is a horror-style text-based adventure game I developed using the functions and macros built from The Wizard's Game in [Conrad Barski's Land of Lisp](http://landoflisp.com/). Slightly more interesting and convoluted! (It is not that scary.)
+For the digital design class I took in the Fall of 2023, I was tasked with making a final project that involved creating an ALU with 8 operations. This ALU would take up to two four bit inputs as well an operation it was expected to perform. The operation could be addition or subtraction with carry inputs, or logical operations such as AND or XOR gates. Pictured above, the image contains the internals of the ALU I designed which in turn contains components that also required designing such as multiplexers for selecting a data line. Of course, the top level of the circuit is just a single component with inputs and outputs, so the picture attached is one step below that to give insight into the actual internals of the ALU. Unfortunately, due to the way that Falstad (the service I used to create this project) creates links, it is not possible to link directly to the project as the url is too large.
 
-To give you a flavor of the game, here is an excerpt from one run:
+However, a corresponding component of this project was to program the ALU in Verilog on EDAPlayground. Verilog is an HDL, hardware design language, which is a language used to specify circuits and their behavior. Rather than attaching components together through wire either digitally through Falstad or with real components, Verilog provides a way to program these circuits on FPGAs (Field Programmable Gate Arrays) which are integrated circuits that can be repeatedly programmed after their manufacturing date. A link to my EDAPlayground, a simulation service, is provided below with both the design file and corresponding testbench file.
 
-<hr>
 
-<pre>
-You open your eyes, and you are greeted by an unfamiliar ceiling.
-Startled, you get to your feet and quickly scan your surroundings. It's
-dark except for the stream of light coming from a crack on the only boarded
-window in the room. You try to peek through the crack, but you cannot see
-anything. You wonder where you are and who could have possibly brought you here.
 
-<--------------------help------------------------>
-Enter quit or one of the following commands -
-Weld light look walk pickup inventory help h ?
-<------------------------------------------------>
-
-look
-The room is a picture of decay with only a faded number identifying it as room-4. The bed you were
- lying on is stained with what looks like dried blood. Could it be your blood? No - it is not. The
- only way out of the room aside from the door to the corridor is a window that is boarded shut. It
- looks like it has been like that for decades. There is a door going west from here. You see a candle
- on the floor. You see a match on the floor.
-
-pickup candle
-- you are now carrying the candle -
-
-pickup match
-- you are now carrying the match -
-
-light match candle
-
-The candle is now lit. It illuminates everything in the room.
-
-walk west
-The corridor is lit with the candle. It is so long that you cannot see to the end. You notice that
- there are words written on the wall. There is a door going east from here. There is a way going north
- from here. There is a door going south from here.
-</pre>
-
-<hr>
-
-Source: <a href="https://github.com/jogarces/ics-313-text-game"><i class="large github icon "></i>jogarces/ics-313-text-game</a>
+Source: <a href="https://www.edaplayground.com/x/gKmU"><i class="large github icon "></i>ALU.v</a>
