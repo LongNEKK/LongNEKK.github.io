@@ -8,7 +8,7 @@ published: true
 labels:
   - Verilog
   - Falstad
-  - -Digital Logic
+  - Digital Logic
 summary: "An 8 operation ALU (Arithmetic Logic Unit) for two 4 bit integers I designed."
 ---
 ##ALU
