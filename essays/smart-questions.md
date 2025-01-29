@@ -17,83 +17,81 @@ labels:
 
 The oldest progenitor of hopelessness on the Internet slowly begins to creep into your mind, "What if nobody has ever experienced this before?". Quickly, you shake your head and banish the thought. "Surely, there must have been at least one poor soul with the very same issue that I have!", you assure yourself in the desperate hopes that your relentless searching will at last find its end in one obscure thread or another. Alas, you find a thread that has the same issue you did! You scan the title and the first sentence or two, and click the link. It's really beginning to feel like you've finally found the answer to your plea. But to your dismay, you find one reply asking for clarification on the question - dated 8 years ago! Just when you had thought that the online voyage you had undertaken was finally beginning to bear fruit, and you were finally starting to see land again - the clouds moved in, and the view of your better and brighter future on the horizon was swiftly taken from you. Forlorn, you find wishing yourself that the author had just asked a smarter question. Now, you must decide: do I post a question to a relevant forum myself or do I commit myself to the grave sin of necro-posting (raising the post from the dead by posting to this ancient thread)? For the former, perhaps it might be best to equip yourself with the tools for asking a proper question.  
 
-## What’s a smart question?
+## Well-Thought Questions 
 
-Stack Overflow, a question and answer site for programmers, is a great resource for anyone who may have issues with code or who may simply want to learn new or different methods of doing something. There I found examples of good questions and bad questions, which could probably be improved.
+When considering how one might ask and format questions, it might be best to consult an example. Some considerations include providing as much detail in as concise a description as possible, listing specifiations relevant to the question at hand, and makign the question as close-ended as possible. StackOverflow, a useful site for programmers to provide questions and answers to, is a community that strictly adheres to a culture of only providing thoughtful well-considered answers to thoughtful and well-considered questions. As a result, it is a great site to find and pick apart smart questions. 
 
-In the following example, we examine the components of a decent question. In this case, the asker is trying to figure out a way to get the date of the previous month in Python.
-
-```
-Q: python date of the previous month
-
-I am trying to get the date of the previous month with python. Here is what i've tried:
-
-str( time.strftime('%Y') ) + str( int(time.strftime('%m'))-1 )
-
-However, this way is bad for 2 reasons: First it returns 20122 for the February of 2012 (instead of 201202) 
-and secondly it will return 0 instead of 12 on January.
-
-I have solved this trouble in bash with:
-
-echo $(date -d"3 month ago" "+%G%m%d")
-
-I think that if bash has a built-in way for this purpose, then python, much more equipped, should provide something 
-better than forcing writing one's own script to achieve this goal. Of course i could do something like:
-
-if int(time.strftime('%m')) == 1:
-    return '12'
-else:
-    if int(time.strftime('%m')) < 10:
-        return '0'+str(time.strftime('%m')-1)
-    else:
-        return str(time.strftime('%m') -1)
-        
-I have not tested this code and i don't want to use it anyway (unless I can't find any other way:/)
-
-Thanks for your help!
-```
-
-While the heading of his question could be better, it does convey what he’s trying to figure out. Usually something as brief as “python date of previous month” is what other users would enter in as search terms on Google, making it easily found. Another good thing about the question is that it’s not just a question. The asker shows what he or she has done and that he or she has put in some effort to answer the question. And while it may not be as important as the question itself, the asker shows courtesy, which does increase the chance of getting an answer.
+In the [upcoming example](https://stackoverflow.com/questions/208105/how-do-i-remove-a-property-from-a-javascript-object), the user asks a relevant, specific, and close-ended question on the forum that facilitated efective and concise answers. The author of this question is trying to determine how to remove an object's property from an object in JavaScript - the details of this question are show below. 
 
 ```
-A: datetime and the datetime.timedelta classes are your friend.
+Q: How do I remove a property from a JavaScript object?
+Given an object:
 
-1. find today
-2. use that to find the first day of this month.
-3. use timedelta to backup a single day, to the last day of the previous month.
-4. print the YYYYMM string you're looking for.
+let myObject = {
+  "ircEvent": "PRIVMSG",
+  "method": "newURI",
+  "regex": "^http://.*"
+};
+How do I remove the property regex to end up with the following myObject?
 
-Like this:
+let myObject = {
+  "ircEvent": "PRIVMSG",
+  "method": "newURI"
+};
+```
 
- >>> import datetime
- >>> today = datetime.date.today()
- >>> first = datetime.date(day=1, month=today.month, year=today.year)
- >>> lastMonth = first - datetime.timedelta(days=1)
- >>> print lastMonth.strftime("%Y%m")
- 201202
- >>>
+In this example, the heading of the question is short and meaningful which potentially allows an answer to be formulated with very additional information to be provided. Instead, the question continutes by giving an example of an object both before and after the deletion of a property. This further clarifies the bounds of the question so that there is no potential misunderstanding of what is meant by "removal" or the property of said object. As a result, this question is an excellent example of asking questions intelligently. Provided below, there is a sample answer that was given to this question in the thread.
 
+```
+A: To remove a property from an object (mutating the object), you can do it by using the delete keyword, like this:
+
+delete myObject.regex;
+// or,
+delete myObject['regex'];
+// or,
+var prop = "regex";
+delete myObject[prop];
+
+
+var myObject = {
+  "ircEvent": "PRIVMSG",
+  "method": "newURI",
+  "regex": "^http://.*"
+};
+delete myObject.regex;
+
+console.log(myObject);
+
+For anyone interested in reading more about it, Stack Overflow user kangax has written an incredibly in-depth blog post about the delete statement on their blog, Understanding delete. It is highly recommended.
+
+If you'd like a new object with all the keys of the original except some, you could use destructuring.
+
+let myObject = {
+  "ircEvent": "PRIVMSG",
+  "method": "newURI",
+  "regex": "^http://.*"
+};
+
+// assign the key regex to the variable _ indicating it will be unused
+const { regex: _, ...newObj } = myObject;
+
+console.log(newObj);   // has no 'regex' key
+console.log(myObject); // remains unchanged
 ```
  
-The asker received six possible answers, and he or she was successful in inciting discussion from multiple users. The answers themselves were clear and were devoid of the rumored sarcasm and hostility of “hackers.” Since I myself have referenced this page and found it useful, I can confidently say that it is a good question.
+There were 40 answer to this question in total, but this answer was one of the mostly highly voted answers. Of course, it is easy to see why. The very first sentence provides a direct answer to the question followed by multiple demos and examples. Then, a reference to another user's post about the delete keyword was provided if the user was interested. This referral to another poster is an excellent exercise in courtesy and humility which is another reason that this is such a great answer. Finally, an alternative using destructuring was provided in case the poster had different bounds that they needed to conform to. As a result, this thread was highly viewed and upvoted due to the clarity of questions and answers it provided. 
 
-## The foolproof way to get ignored.
+## The Death of A Question 
 
-While there are decent questions that benefit everyone, there are those one can ask to create an entirely different effect. In the following example, a user asks how he would, in short, create a desktop application with Facebook.
+A question such as the one [below](https://steamcommunity.com/app/377160/discussions/0/4512128114436476359/). is not a particularly effective that warrants a thoughtful response. Instead, it invites derision and hostility towards the poster.
 
 ```
-Q: Facebook Desktop Notifier
-
-I am a beginner programmer that have never used anything other than what's included in a language.
-
-I am trying to create a desktop application that notifies me anytime I get an update onfacebook. 
-How should go about doing this? Thanks in advance.
-
-edit Sorry I was not clear. Is there any way to make a DESKTOP application with facebook?
+Q: Fallout London: f*ck this
+So I did the downgrader, opened in GOG, plugged in the path and now it tells me "Current game build is not supported. Please install version 1.10.163.0 of the Fallout 4." I really don't want to buy the game on GOG. Any suggestions about wtf I'm doing wrong?
 ```
 
-A simple “yes” would have answered the question, but we know that’s not the sort of answer he or she is looking for. Fortunately, someone kindly responded with a link to Facebook’s developer website. The asker should have done more research on his or her potential project. Then further down the road, he or she could have asked more specific and detailed questions that wouldn’t require a thousand-paged response for a sufficient answer.
+The subject line should not contain any particularly emotive language as that distracts from the question, and also might elicit a negative response to someone who might otherwise be helpful. In addition, only one attempt at a solution has been made with no details besides the error message. For additional context to this question, this is a thread about the installation of a file that modifies the game Fallout 4. As such, there happens to be a detailed installation guide that the poster has made no reference to following. In addition, the thread contains more posts from the author mostly complaining about the difficulty of installation rather than providing meaninful information about the problem. This invites negativity rather than productivity on the behalf of more expert posters. in response, the thread is often filled posters speaking of their own solutions with no way to tell if it is relevant to the poster as well as other posters mocking and arguing the original author. A question like this is better left unasked. 
 
 ## Conclusion
 
-When we rely on others’ generosity and expertise to provide answers to our questions, it should hold that the question we ask should be one that leads to efficient and effective help that not only benefits us, but also the people we ask and others who might ask the same question in the future. Thus, if you have a question… make it a smart one! Asking questions may not always get you the best answer, but asking them in a way that will make others want to answer them will increase the success of finding a good solution and make it a positive experience on all sides.
+Considering others time and efforts should be our first priority when asking a question. We are, after all, at the mercy of their generosity, and should do well to remember that every person finds their time just as valuable as we find ours. Furthermore, it is good to keep in mind the general principles of asking good questions so that they remain unmocked and answered in a timely fashion. For everyone's sake, keeping our questions concise, well-mannered, and close-ended is the best way for everyone in the thread to go happy, healthy, and humble. 
