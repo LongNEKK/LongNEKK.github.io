@@ -1,9 +1,9 @@
 ---
 layout: essay
 type: essay
-title: "Smart Questions, Good Answers"
+title: "What to ask, When to ask: The Death of Forum Questions"
 # All dates must be YYYY-MM-DD format!
-date: 2015-09-08
+date: 2025-01-28
 published: true
 labels:
   - Questions
@@ -11,11 +11,11 @@ labels:
   - StackOverflow
 ---
 
-<img width="300px" class="rounded float-start pe-4" src="../img/smart-questions/rtfm.png">
+<img width="300px" class="rounded float-start pe-4" src="../img/wisdom_of_the_ancients.png">
 
-## Is there such thing as a stupid question?
+## Obscure Questions And The Dread of Necro-Posting
 
-I’ve had instructors address a whole class and say, “There’s no such thing as a stupid question.” I now know that is in fact not true because I’ve challenged the statement and received the appropriate dumb-stricken, annoyed look. There are definitely stupid questions, and along with that, usually unhelpful answers. Though we all might be guilty of being callous and making people victim to our poorly formed questions, there are steps we can take to ask smarter questions that hopefully don’t illicit the dreaded “rtfm” or “stfw” response.
+The oldest progenitor of hopelessness on the Internet slowly begins to creep into your mind, "What if nobody has ever experienced this before?". Quickly, you shake your head and banish the thought. "Surely, there must have been at least one poor soul with the very same issue that I have!", you assure yourself in the desperate hopes that your relentless searching will at last find its end in one obscure thread or another. Alas, you find a thread that has the same issue you did! You scan the title and the first sentence or two, and click the link. It's really beginning to feel like you've finally found the answer to your plea. But to your dismay, you find one reply asking for clarification on the question - dated 8 years ago! Just when you had thought that the online voyage you had undertaken was finally beginning to bear fruit, and you were finally starting to see land again - the clouds moved in, and the view of your better and brighter future on the horizon was swiftly taken from you. Forlorn, you find wishing yourself that the author had just asked a smarter question. Now, you must decide: do I post a question to a relevant forum myself or do I commit myself to the grave sin of necro-posting (raising the post from the dead by posting to this ancient thread)? For the former, perhaps it might be best to equip yourself with the tools for asking a proper question.  
 
 ## What’s a smart question?
 
