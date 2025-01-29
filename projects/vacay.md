@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/vacay/wcc.jpg
+image: img/wcc.jpg
 title: "Ka Piko/TRiO Summer Outreach Programs"
 date: 2023
 published: true
@@ -12,7 +12,7 @@ labels:
 summary: "A variety of educational community outreach programs that I participate in every summer."
 ---
 
-<img class="img-fluid" src="../img/vacay/Trio.jpg">
+<img class="img-fluid" src="../img/Trio.jpg">
 
 At Windward Community College, I am a peer tutor for the Ka Piko program in conjuction with my employment at TRiO services. Both of these programs are incredibly impactful at WCC in terms of allowing vulnerable students experience the safety and security that every student deserves. These include active donation services, free lunch programs, free tutoring and advising, and free counseling services independent of other departments at WCC and Manoa System campuses in general. Generally, every summer involves some sort of educational outreach program that I proudly participate in. This can include free Math 100 classes and specialized tutoring for first-time and non-traditional students, or high school dual enrollment classes that come with a supplemental instructor/tutor. 
 
