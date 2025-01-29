@@ -10,7 +10,7 @@
     "location": { "address": "", "postalCode": "96744", "city": "Kaneohe", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
       { "network": "github", "username": "LongNEKK", "url": "http://github.com/LongNEKK" },
-      { "network": "linkedin", "username": "Jon Crabtree", "url": "www.linkedin.com/in/jon-crabtree-187737347" },
+      { "network": "linkedin", "username": "Jon Crabtree", "url": "https://www.linkedin.com/in/jon-crabtree-187737347/" },
     ]
   },
   "interests": [
