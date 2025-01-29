@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/wcc.jpg
 title: "Ka Piko/TRiO Summer Outreach Programs"
-date: 2023
+date: 2023-ongoing
 published: true
 labels:
   - Education
