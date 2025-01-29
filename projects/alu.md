@@ -12,7 +12,7 @@ labels:
 summary: "An 8 operation ALU (Arithmetic Logic Unit) for two 4 bit integers I designed."
 ---
 
-<img class="img-fluid" src="../img/cotton/ALU.png">
+<img class="img-fluid" src="../img/ALU.png">
 
 For the digital design class I took in the Fall of 2023, I was tasked with making a final project that involved creating an ALU with 8 operations. This ALU would take up to two four bit inputs as well an operation it was expected to perform. The operation could be addition or subtraction with carry inputs, or logical operations such as AND or XOR gates. Pictured above, the image contains the internals of the ALU I designed which in turn contains components that also required designing such as multiplexers for selecting a data line. Of course, the top level of the circuit is just a single component with inputs and outputs, so the picture attached is one step below that to give insight into the actual internals of the ALU. Unfortunately, due to the way that Falstad (the service I used to create this project) creates links, it is not possible to link directly to the project as the url is too large.
 
