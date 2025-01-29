@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: img/verilog.png
-title: ""
+title: "ALU"
 date: 2023
 published: true
 labels:
