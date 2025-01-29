@@ -1,17 +1,18 @@
 ---
 layout: project
 type: project
-image: img/cotton/cotton-square.png
-title: "Cotton"
-date: 2014
+image: img/Verilog.png
+title: ""
+date: 2023
 published: true
 labels:
-  - Lisp
-  - GitHub
-summary: "A text adventure game that I developed for ICS 313."
+  - Verilog
+  - Falstad
+  - -Digital Logic
+summary: "An 8 operation ALU (Arithmetic Logic Unit) for two 4 bit integers I designed."
 ---
 
-<img class="img-fluid" src="../img/cotton/cotton-header.png">
+<img class="img-fluid" src="../img/cotton/ALU.png">
 
 Cotton is a horror-style text-based adventure game I developed using the functions and macros built from The Wizard's Game in [Conrad Barski's Land of Lisp](http://landoflisp.com/). Slightly more interesting and convoluted! (It is not that scary.)
 
