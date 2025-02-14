@@ -1,34 +1,30 @@
 ---
 layout: essay
 type: essay
-title: "Typescript: A Revenant or A Respite?"
+title: "Coding Standards: Conveniently Orthodox"
 # All dates must be YYYY-MM-DD format!
-date: 2025-01-23
+date: 2025-02-13
 published: true
 labels:
   - Engineering
+  - Coding Conventions
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="../img/TS.jpg">
+<img width="200px" class="rounded float-start pe-4" src="../img/GUIDE.jpg">
 
-Offering both unparalleled ease of use and readability, these rarely unsung virtues find themselves manifested in none other than Typescript itself. For years, Javascript programmers often found themselves frantic with frustration and fraught with fear when saddled with maintaining a codebase built by predecessors of years gone by. 
+It was the only this past week that I encountered ESLint, an uncompromising taskmaster from both my dreams and my nightmares. This no-nonsense character has done nothing but drill its peculiar obsession with newlines at the ends of files and spaces before curly braces into my thick and hard skull. I find myself wondering what could possibly be the difference between single quotes and double quotes to this eccentric entity dwelling beneath my IDE, and what fuels this seemingly unfounded hatred that fills every line with its red warnings and errors. 
 
-Many horrors were found between a second and third “=” sign, or at least, those were the tales I’ve heard. This led many programmers to be champing at the bit for a better paradigm and language  - something like Typescript that could provide comfort through its handling of type safety. 
+Yet sure enough, I find myself appreciating the aesthetic simplicity of my programs more now than when I am left to my own devices. Before, I had separated scopes with obnoxious indentation that strained against the width of the screen, and found myself frequently unsure of where exactly I wanted to leave a closing curly brace hanging. Admittedly, I now get to indulge myself with the "right" answer as given to me by the linter from on high, and this has left me with the relaxed eyes and greater focus that I need to focus on the task at hand. 
+## Comfort in Compromise
 
-## My Own Struggles And Considerations 
+This had left me with a bit of a realization. Coding standards have oft come about less from debates over correctness and aesthetic beauty, and more from the mutual desire for simplicity and compromise that teams want from each other. Considering that development projects have only ballooned in size over the past several decades - often having many teams that total up to hundreds or thousands of engineers, it's only reasonable to strive for the most simple template to maximize the comprehension and minimize the stress of everyone involved. If I find myself being able to comprehend and understand my very own brainchild at a higher degree of comfort and efficiency, I can only imagine how much benefit can be gained from the implementation of company-wide and team-wide standards when it comes to interacting with the work of other people. 
 
-Similarly, I find myself also in a state of gratitude of having transitioned towards a new language to learn. As a result of having spent the last year learning C, Verilog, and MIPS assembly language -  I found myself remarkably fatigued. Thus, this outlines the contrast of my experience with many Javascript developers.
+While one might imagine that there is a greater deal of effort in having to change you think to abide by arbitrary standards, the existence of modern development environments allow for auto-fixes with the click of a button. In VSCode, the chosen IDE for ICS 314, the process is called "QuickFix", and can automatically fix most linting errors. For the micro-managers at heart, every fix can be vetted before being automatically changed, or for greater convenience, an "autofix all QuickFixes" button can correct every linter error in your progam at once. One can even choose to ignore a linter error though this is likely not recommended. As a result, it may seem that the linter lords over you with its arbitrary rules and conventions, but it is in fact a tool that works for you at its heart. A linter exists truly at your convenience, and especially at the convenience of those around you. 
 
-I have been so entrenched with incredibly strict and low level languages over the past year that this recent transition has brought many boons and struggles. Admittedly, it has been a wonderful experience not having to worry about allocating memory, whether to declare a variable as a wire or a register, or the size of a data type.
 
-However, I have often found myself struggling with programming under time pressure especially with syntax that is not deeply ingrained in me. This has been my major difficulty in the course so far - that is, adapting from one style of programming to a more fast and loose kind.
+<img width="200px" class="rounded float-start pe-4" src="../img/HELP.jpg">
 
-<img width="200px" class="rounded float-start pe-4" src="../img/MIPS.jpg">
+## A Tool to Help Others
 
-## Developing As An Engineer
-
-Yet, I still look forward to the athletic software engineering that this class structure is hoping to provide. It seems to me that this will result in me becoming a much more well-rounded programmer, and I think that I will be confident with this style of programming given enough time. 
-
-The practice WODS have been very helpful in getting me back up to speed in more traditional coding exercises. Specifically, I am referring to the interview questions that are asked for software developer positions. It is important to remember that there is not always time for long and critical thought - a philosophy that I believe this class enforces and maintains. 
-I can imagine that this will be nothing but a great help to me as I advance in my career, and I am excited for my path into web development - with all of its winding and twisting. 
+Furthering my point from before, it is helpful to note that a linter can have its rules modified, and operate for different kinds of coding conventions depending on team and company policy. This is exceptionally important as it means in some ways, there is a democratic element to coding conventions that should cause a higher degree of concern when it comes to simply skipping out on the agreed-upon rules. Are you helping your coworkers to read by disabling indentation errors, or are you thinking about the future when ignoring type safety errors? The answer is likely no. The linter is something that helps everyone on the team, whether one person likes it or not. Nobody likes to work with a person who believes that they always know best. Because of this, I think we should take a pause and a moment for reflection whenever we consider rules or conventions or guidelines to be silly, illogical affairs. Are we thinking about the future and are we thinking about each other's interests? That should always be the first and last question in design.
 
