@@ -1,8 +1,10 @@
+
+
 ---
 layout: project
 type: project
 image: img/punyC.jpg
-title: ""
+title: "PunyC: A ByteSized Computer"
 date: 2024
 published: true
 labels:
@@ -10,6 +12,7 @@ labels:
   - Verilog
   - MIPS ISA 
 summary: "I developed a simulation of a small computer using standard practices for pipelining, operation implementation, and memory operations in Verilog called PunyC."
+---
 
 In this project, I developed a small "computer" that was capable of fetching instructions, executing instructions, and reading and writing to memory. This involved the implementations of the different stages of the instruction pipeline as well as the architecture where memory is read and written from. In addition, individual opcodes were designed and then implemented in a testbench file to represent a computer running a real set of instructions. An excerpt of my code that essentially acts as my "main" in the verilog program has various wires and registers defined as well as the different opcodes. In addition, the pc logic for moving between instructions as well as the ALU is written here. 
 
@@ -173,5 +176,3 @@ module puny2(
   
 endmodule:  puny2
 ```
-
-You can learn more at the [UH Micromouse News Announcement](https://manoa.hawaii.edu/news/article.php?aId=2857).
