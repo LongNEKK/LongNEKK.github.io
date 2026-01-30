@@ -2,17 +2,15 @@
   "basics": {
     "name": "Jon Crabtree",
     "label": "Student",
-    "picture": "https://github.com/kambergjohnson.png",
+    "picture": "https://github.com/LongNEKK.png",
     "email": "jd71@hawaii.edu",
     "phone": "808-465-7546",
     "website": "https://LongNEKK.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2024.",
-    "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "summary": "I am studying for a B.S. in Computer Engineering in the College of Engineering at the University of Hawaii. I expect to graduate in Spring, 2026.",
+    "location": { "address": "", "postalCode": "96815", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
       { "network": "github", "username": "LongNEKK", "url": "http://github.com/LongNEKK" },
-      { "network": "linkedin", "username": "jon-crabtree", "url": "http://linkedin.com/in/jon-crabtree" },
-      { "network": "twitter", "username": "mollymal", "url": "http://twitter.com/changeme" },
-      { "network": "instagram", "username": "molly", "url": "http://instagram.com/changeme" }
+      { "network": "linkedin", "username": "jon-crabtree", "url": "https://www.linkedin.com/in/jon-crabtree-187737347/" }
     ]
   },
   "interests": [
@@ -45,70 +43,52 @@
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
+      "company": "UH Manoa ECE Department",
+      "position": "ECE Grader",
       "website": "",
-      "startDate": "2015-08-01",
+      "startDate": "2024-01-15",
       "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "summary": "Graded for Intro to Programming, Data Structures and Algorithms, and Engineering Electromagnetics",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
+        "Assessed and provided constructive feedback on assignments",
+        "Present and responsive to student emails regarding class material and logistics"
       ]
     },
     {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
+      "company": "Windward Community College",
+      "position": "Ka Piko Math Lab Tutor",
       "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
+      "startDate": "2023-01-15",
+      "endDate": "Present",
       "summary": "",
       "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
+        "Guideda and instructed students in courses up to multivariable calculus, programming, general chemistry, and physics.",
+        "Troubleshooted technology problems for students, and accomodated students with various needs such as ESL or disabilities such as blindness."
       ]
     }
   ],
   "volunteer": [
     {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
-      "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
-      "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
-      ]
-    },
-    {
-      "organization": "",
+      "organization": "Vertically Integrated Project for Sustainability at UH Manoa",
       "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
+      "position": "Student Member",
+      "startDate": "2024-08-15",
+      "endDate": "Present",
+      "summary": "Developer and Team Member for Gas Meter and Electric Vehicle projects",
       "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
+        "Helped design a gas meter sensor using computer vision and a Raspberry Pi",
+        "Conducted research to inform project regarding infrastructural policy surrounding campus EV Charging."
       ]
     }
   ],
   "awards": [
     {
-      "title": "B+ Scholarship",
-      "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
-    },
-    {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
+      "title": "Valedictorian",
+      "date": "2022-05-15",
+      "awarder": "James B. Castle High School",
+      "summary": "Awarded Valedictorian with a 4.2 GPA."
     }
+
   ],
   "references": [
     {

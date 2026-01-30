@@ -1,54 +1,19 @@
 ---
 layout: essay
 type: essay
-title: "The difficult things will always be difficult"
+title: "Engineers and Curators"
 # All dates must be YYYY-MM-DD format!
-date: 2016-02-06
+date: 2026-01-29
 published: true
 labels:
-  - Engineering
+  - Software Engineering
+  - Gaming
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="../img/difficulty/degree_difficulty.jpg">
+<img width="300px" class="rounded float-start pe-4" src="../img/mosaic.jpg">
 
-*Difficulty: a thing that is hard to accomplish, deal with, or understand.*
+I've always had a penchant for things that look nice and read well. As a kid in the summers, I would read at least 10 books between the biweekly trips to the library. Nowadays, I find that my Spotify playlists have reached thousands of songs, my notes are filled with shows and movies that are filling my backlog, and even my wish list on Steam contains around 600 or so games. Indeed, I've come close to becoming a digital hoarder. Traipsing across my room as a kid, I would be imagining how I would write the next page in a book I had just put down and couldn't wait to pick up again. For my whole life, I fill my mind palace like a dragon's hoard of pictures and words with the rantings and ravings of what comes next clawing at the back of my mind. I often joke with my friends that I am a modern patron of the arts - at this point, what else am I buying? As of late, I find that people are less excitable about the things that others make. Rather, there is a constancy in their desire to create - making loud noises and dazzling colors to ensnare the minds of the invisible room that composes the audience is all that dominates the mind. Yet, I feel we are forgetting the wonder that is felt when captivating by the darling of another mind. It's all too dramatic a tragedy to misremember the interminable heartache of the shut door - halting you from another world and leaving you in the wild hunt across the corridors of your imagination for that slip in the crack to let yourself in. 
 
-One of my friends asked the question earlier last week -- why is it so hard to be an officer for the student branch? Why is so hard compared to working at my on-campus job? This question came after he struggled a little with bookkeeping for the student organization.
+I imagine that it is this very confrontation that drives a person to create something that once again inspires that very same zeal in others. The very passions that slice the mundane can sow the seeds of passion that create projects bigger than you imagined. On the contrary however, it is often said that ideas are cheap and execution is priceless. The subtlety that I would add is that the execution is a search of all those ideas and iterations before you - a close inspection of the hearts and projects that people once clutched closely to themselves. The pursuit of engineering is as close to curation as it is invention. Just a little bit of purple prose can turn what one would call "research" into something closer to reminiscing. The nostalgia is inherent when we learn from our teachers, talk amongst ourselves, and reflect about once was. We remember fondly and paint pretty picture of those heated discussions for ears that no longer listen and live, and the stresses felt by the hearts of none other than the first to do, the first to make.   
 
-Now I gave him the standard answer - being an officer of an organization requires that you manage your time between school and work. There isn't anyone telling you what to do. It's the answer any good mentor would give, and is mostly true.
-
-But the more I though about it, the more I wondered to myself...damn that's a really great question; it's one that deserves some more thought. Most people I think stop at the answer I gave previously - he obviously isn't managing his time properly.
-
-Here's what I think: the difficult things will always be difficult.
-
-## In the context of programming
-
-In the context of programming, this has always been true. The difficult problems have always been different, although changes in technology can change the landscape quite a bit. "Business" type applications are the things that come to mind for me. Those types of applications are usually coupled in some way with people ... and people are awfully hard to deal with!
-
-Consider that one of the most popular content management systems is also considered the most horrible - Wordpress. But really, is there anything that fills that need? If it was so easy in the first place, where is the solution? Where's the magic CMS that is designed well enough that everyone hops on the boat to use it?
-
-Some things are just difficult - building applications that humans use is hard, and will probably be hard for at least the near future.
-
-## In the context of engineering
-
-Ever hear people ragging on engineering companies for delivering late and way over budget? Well, some engineering jobs are really difficult, especially if the requirements and funding are undulating underneath you. Because of the nature of the problem, sometimes engineering firms require large amounts of engineers and workers, inviting further problems and delays.
-
-The Honolulu Rail project at home has become this sort of poster child of failure, budget overrun and overall incompetence in Hawaii. Well, working though regulatory boards and fiscal procedures in Hawaii seems like it's a mind bogglingly difficult job to do. Granted, there might be some fishy stuff going on, but I refuse to believe that everyone is involved for nefarious reasons.
-
-The problem of creating an unprecedented public transportation backbone on an island is difficult! I'm not sure we would have done it right, even if the best people were involved.
-
-## In the context of relationships
-
-So in the end, we realize that all engineering and programming is there for a reason - to serve human needs. Maybe that's why those things are difficult, because they both involve humans and are for humans.
-
-Relationships, regardless if they're romantic or not take work. Humans are fickle creatures and relationships can come and go with the wind. To properly maintain something over time requires work. Family takes work. Marriage takes work. We live to figure out what works and what doesn't and hope that as we move forward we're improving.
-
-Relationships have always been difficult, and by nature will continue to be so.
-
-## Okay!
-
-So back to the original premise; why is being one of the club officers so difficult?
-
-And the final answer - it's supposed to be difficult, and it's supposed to challenge you, just like everything else that humans do that is difficult: programming, engineering, engaging in relationships, pondering the universe, etc.
-
-Ultimately the question you should really ask yourself if something if particularly difficult is then "is it worth it"? That is something that is context specific and only you can answer yourself.
+Throughout this Software Engineering course as I have throughout my Computer Engineering degree, I hope to take seriously of times gone by. Wherever the winds take my career, I hope to take the position of curator first - a proper appreciator and preserver of all that came before. To become a better designer of all that comes next, it is necessary to learn from the mistakes of history, and develop that keen sense of heritage of the engineers that built the world we live in. In turn, I hope my career helps solve problems in a way that captures the attention of others in the same way I was once enraptured. But until then, I find that it is time to watch and learn - to make what I can for myself and one day others. 
