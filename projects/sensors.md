@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/sensor.png
+image: img/sensor.jpg
 title: "Raspberry Pi Cameras To Monitor Gas Usage"
 date: 2024-2025
 published: true
