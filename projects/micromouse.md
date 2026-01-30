@@ -1,39 +1,177 @@
 ---
 layout: project
 type: project
-image: img/micromouse/micromouse-square.jpg
-title: "Micromouse"
-date: 2015
+image: img/punyC.jpg
+title: ""
+date: 2024
 published: true
 labels:
-  - Robotics
-  - Arduino
-  - C++
-summary: "My team developed a robotic mouse that won first place in the 2015 UH Micromouse competition."
----
+  - Computer Archictecture
+  - Verilog
+  - MIPS ISA 
+summary: "I developed a simulation of a small computer using standard practices for pipelining, operation implementation, and memory operations in Verilog called PunyC."
 
-<div class="text-center p-4">
-  <img width="200px" src="../img/micromouse/micromouse-robot.png" class="img-thumbnail" >
-  <img width="200px" src="../img/micromouse/micromouse-robot-2.jpg" class="img-thumbnail" >
-  <img width="200px" src="../img/micromouse/micromouse-circuit.png" class="img-thumbnail" >
-</div>
+In this project, I developed a small "computer" that was capable of fetching instructions, executing instructions, and reading and writing to memory. This involved the implementations of the different stages of the instruction pipeline as well as the architecture where memory is read and written from. In addition, individual opcodes were designed and then implemented in a testbench file to represent a computer running a real set of instructions. An excerpt of my code that essentially acts as my "main" in the verilog program has various wires and registers defined as well as the different opcodes. In addition, the pc logic for moving between instructions as well as the ALU is written here. 
 
-Micromouse is an event where small robot “mice” solve a 16 x 16 maze.  Events are held worldwide.  The maze is made up of a 16 by 16 gird of cells, each 180 mm square with walls 50 mm high.  The mice are completely autonomous robots that must find their way from a predetermined starting position to the central area of the maze unaided.  The mouse will need to keep track of where it is, discover walls as it explores, map out the maze and detect when it has reached the center.  having reached the center, the mouse will typically perform additional searches of the maze until it has found the most optimal route from the start to the center.  Once the most optimal route has been determined, the mouse will run that route in the shortest possible time.
 
-For this project, I was the lead programmer who was responsible for programming the various capabilities of the mouse.  I started by programming the basics, such as sensor polling and motor actuation using interrupts.  From there, I then programmed the basic PD controls for the motors of the mouse.  The PD control the drive so that the mouse would stay centered while traversing the maze and keep the mouse driving straight.  I also programmed basic algorithms used to solve the maze such as a right wall hugger and a left wall hugger algorithm.  From there I worked on a flood-fill algorithm to help the mouse track where it is in the maze, and to map the route it takes.  We finished with the fastest mouse who finished the maze within our college.
-
-Here is some code that illustrates how we read values from the line sensors:
 
 ```cpp
-byte ADCRead(byte ch)
-{
-    word value;
-    ADC1SC1 = ch;
-    while (ADC1SC1_COCO != 1)
-    {   // wait until ADC conversion is completed   
-    }
-    return ADC1RL;  // lower 8-bit value out of 10-bit data from the ADC
-}
+
+`include "define.sv"
+`include "prog.sv"
+`include "prog1.sv"
+`include "prog2.sv"
+
+module puny2(
+  input instrValue instr,
+  input logic clk,
+  input logic reset,
+  output logic [7:0] pc
+);
+  
+  pcSelValue pcSel;
+  logic raWrite;
+  logic rfileWrite;
+  aluSelValue aluSel;
+  aluInSelValue aluInSel;
+  logic [7:0] rfile [0:3];
+  logic [7:0] aluA, aluB, aluOutput;
+  logic [7:0] raReg;
+  
+  always_ff @(posedge clk) // Return address register
+    if (raWrite==1)
+      raReg <= pc+1;
+ 
+  assign aluA=rfile[instr.src1]; // Register file
+  
+  always_ff @(posedge clk)
+    if (rfileWrite==1) rfile[instr.dst] = aluOutput;
+  
+  always_comb  // ALU mux
+    begin
+      case(aluInSel)
+        REG: aluB = rfile[instr.src2];
+        IMM: aluB = instr.imm;
+       endcase
+    end
+  
+  
+  always_comb // ALU
+    begin
+    case(aluSel)
+      ADD: aluOutput=aluA+aluB;
+      SUB: aluOutput=aluA-aluB;
+      PASSA: aluOutput = aluA;
+      PASSB: aluOutput = aluB;
+      default: aluOutput = 0;
+    endcase
+    end
+
+  always_ff @(posedge clk) // PC logic
+    begin
+      if (reset==1) 
+        begin
+          pc<=0;
+        end
+      else
+        case(pcSel)
+          INC: pc<=pc+1;
+          J: pc<=instr.imm;
+          JZ: if (rfile[instr.src1]== 0) pc<=instr.imm; else pc<=pc+1;
+          CALL: pc<=instr.imm; 
+          RET: pc<=raReg;
+          default: pc<=pc+1;
+        endcase
+    end
+  
+  
+  always_comb // Controller
+    begin
+      case(instr.opcode)
+        opJ:
+          begin
+            pcSel=J;
+            rfileWrite=0;
+            raWrite=0;
+            aluSel=ADD;
+            aluInSel=IMM;
+          end
+        opSET:
+          begin
+            pcSel=INC;
+            rfileWrite=1;
+            raWrite=0;
+            aluSel=PASSB;
+            aluInSel=IMM;
+          end
+        opADD:
+          begin
+            pcSel=INC;
+            rfileWrite=1;
+            raWrite=1;
+            aluSel=ADD;
+            aluInSel=REG;
+          end
+        opSUB:
+          begin
+            pcSel=INC;
+            rfileWrite=1;
+            raWrite=1;
+            aluSel=SUB;
+            aluInSel=REG;
+          end
+        opADDI:
+          begin
+            pcSel=INC;
+            rfileWrite=1;
+            raWrite=0;
+            aluSel=ADD;
+            aluInSel=IMM;
+          end
+        opSUBI:
+          begin
+            pcSel=INC;
+            rfileWrite=1;
+            raWrite=0;
+            aluSel=SUB;
+            aluInSel=IMM;
+          end
+        opJZ:
+          begin
+            pcSel=JZ;
+            rfileWrite=0;
+            raWrite=0;
+            aluSel=ADD;
+            aluInSel=IMM;
+          end
+        opCALL:
+          begin
+            pcSel=CALL;
+            rfileWrite=0;
+            raWrite=1;
+            aluSel=ADD;
+            aluInSel=IMM;
+          end
+        opRET:
+          begin
+            pcSel=RET;
+            rfileWrite=0;
+            raWrite=0;
+            aluSel=ADD;
+            aluInSel=IMM;
+          end
+        default:
+          begin
+            pcSel=INC;
+            rfileWrite=0;
+            raWrite=0;
+            aluSel=PASSB;
+            aluInSel=IMM;
+          end
+      endcase
+    end
+  
+endmodule:  puny2
 ```
 
 You can learn more at the [UH Micromouse News Announcement](https://manoa.hawaii.edu/news/article.php?aId=2857).
