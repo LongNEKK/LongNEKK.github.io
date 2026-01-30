@@ -1,28 +1,17 @@
 ---
 layout: project
 type: project
-image: img/vacay/vacay-square.png
-title: "Vacay"
-date: 2015
+image: img/sensor.png
+title: "Raspberry Pi Cameras To Monitor Gas Usage"
+date: 2024-2025
 published: true
 labels:
-  - Javascript
-  - Meteor
-  - MongoDB
-  - GitHub
-summary: "A responsive web application for travel planning that my team developed in ICS 415."
+  - Python
+  - Conda
+  - YOLO/Computer Vision
+summary: "An implementation of a computer vision algorithm using affordable camera modules on top of Raspberry Pi's to monitor gas usage across campus and track usage patterns."
 ---
 
-<img class="img-fluid" src="../img/vacay/vacay-home-page.png">
+<img class="img-fluid" src="../img/pi.png">
 
-Vacay is a web application that I helped create as a team project in ICS 415, Spring 2015. The project helped me learn how to design and implement a responsive web site.
-
-Vacay is implemented using [Meteor](http://meteor.com), a JavaScript application platform. Within two weeks, we created a website that implements several types of reservations including flights, hotels, and car rentals.
-
-In this project I gained experience with full-stack web application design and associated technologies, including [MongoDB](http://mongodb.com) for database storage, the [Twitter Bootstrap](http://getbootstrap.com/) CSS Framework for the user interface, and Javascript for both client and server-side programming. 
-
-Here is some example code to illustrate Simple Schema use:
-
-{% gist 9defa1fb3f4eb593ba5fa9eacedca960 %}
- 
-Source: <a href="https://github.com/theVacay/vacay">theVacay/vacay</a>
+This was a project with the Sustainability VIP on campus where we created python scripts that implemented the ML (Machine Learning) Computer Vision model called YOLO in order to read gas meters across campus. Implementing smart meters is expensive, and the current strategy is a monthly manual reading. Our implementation that is still in the process of being completed is designed to take gas meter data and upload it to a csv file with 15 minute increments in between. We will then use this data to analyze patterns in gas usage across campus to think about possible reduction strategies. Currently, we can read the dials and collect information to be uploaded, but a proper case is still in the works to contain these cameras. 
