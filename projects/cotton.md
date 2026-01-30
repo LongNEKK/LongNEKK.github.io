@@ -1,9 +1,9 @@
 ---
 layout: project
 type: project
-image: img/cotton/EV.png
+image: img/EV.png
 title: "Electric Vehicle Charging Infrastructure Policy"
-date: 2014
+date: 2026
 published: true
 labels:
   - Electric Vehicles
