@@ -10,7 +10,7 @@ labels:
   - Coding Conventions
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="../img/GUIDE.jpg">
+<img width="200px" class="rounded float-start pe-4" src="../img/Guide.jpg">
 
 Slowly, the clock has been ticking. Ever since my near fatal scrape with ESlint, I've been paranoid and looking over both shoulders for this no-nonsense character with a peculiar obssession for newlines at the ends of files. The spaces before curly braces have beaten into my thick, hard skull. Wondering what could be the difference between single quotes and double quotes, I yield to this eccentric entity dwelling beneath my IDE - an eldritch god with a seemingly incalculable hatred. If a mortal dare not appease its shadow, every line fills and quakes with its red warnings and errors. 
 
