@@ -9,7 +9,7 @@ labels:
   - Engineering - UI 
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="../img/bootstrap.png">
+<img width="200px" class="rounded float-start pe-4" src="../img/bootstrap.jpg">
 
 # Unlocking the Power of UI Frameworks: A Journey through Bootstrap 5 and Beyond
 
@@ -29,7 +29,7 @@ Customization: As a result of offering a vast library of components, Bootstrap 5
 
 Community and Documentation: Bootstrap 5 boasts comprehensive documentation and a thriving community. This means that troubleshooting issues or finding tutorials and extensions is remarkably easy.
 
-<img width="200px" class="rounded float-start pe-4" src="../img/html.png">
+<img width="200px" class="rounded float-start pe-4" src="../img/html.jpg">
 
 ## The Case for Raw HTML and CSS
 Using raw HTML and CSS gives developers complete control over the design and functionality of a web application. A developer with an eye for detail can definitely move past the janky feel of 90s browsers with sufficient micro-management. However, this approach can be labor-intensive and prone to inconsistencies across different platforms and browsers. The lack of standardized components also inevitably leads to an increased development time.
