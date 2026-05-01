@@ -9,7 +9,7 @@ labels:
   - Engineering - Design Patterns - Project Management 
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="../img/bootstrap.png">
+<img width="200px" class="rounded float-start pe-4" src="../img/blood.png">
 
 # Structure, Anatomy, and Policy: The Things Written in Blood
 
