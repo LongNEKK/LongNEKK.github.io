@@ -9,10 +9,10 @@ labels:
   - Engineering - Design Patterns - Project Management 
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="../img/blood.png">
 
 # Structure, Anatomy, and Policy: The Things Written in Blood
 
+<img width="300px" class="rounded float-start pe-4" src="../img/blood.png">
 To dissect the workflows and processes of an organization may seem like a stale and cold endeavor, and yet when presented with an opportunity for investigation, these kinds of observations are rarely comparable to the clinical measurements of a cadaver. Instead, these probing movements lead to jerky, sporadic outbursts and movements that lead one to believe that the entity under the scope may be alive indeed. Oftentimes, the stereotypically drab corporate nature presented in media might lead one to underestimate the liveliness with which software projects are made. For every line, there was a request, a consideration, a debate, and even a story. When unexpected changes occur, the lifeblood of the project spurts back out - leading the most and least experienced alike to reach for the gauze. For every policy and convention, there was a scar that healed. In much the same way, there are capillaries known as design patterns. They carry the waste and the nutrients all throughout the system, and maintain the health of the project body. They are often small, simple in scope, and yet they carry the weight of the project in their multitudes. 
 
 ## The Veins That Run; The Veins That Bleed
