@@ -16,7 +16,7 @@ project, it can often be difficult to grasp at the root of an application - what
 before eventually being grounded in a more concrete awareness of how I solve problems. For example, I had a way better idea of the time I take to implement dashboard changes rather than making the dashboard myself.
 Closed ended problems were easier to estimate and solve than the starting page itself. While I used intuition throughout the project, revisiting the project page only led to more accurate assessments of the time
 to be taken. At the very least, I can assure myself that the estimation process had one positive to be remembered - setting aside a real day!
-<img width="1000px" class="rounded float-start pe-4" src="../img/Estimation-Coding.png">
+<img width="1200px" class="rounded float-start pe-4" src="../img/Estimation-Coding.png">
 
 # Making The Best Guess; Taking The First Step
 Similar to my lackadaisical approach of estimating, I found myself only occasionally engaging in timekeeping best practices. Namely, I would often skip out on actual timers in favor of noting the time,
