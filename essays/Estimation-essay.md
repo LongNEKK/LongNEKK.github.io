@@ -10,7 +10,7 @@ labels:
 ---
 
 
-#Thinking Through The Guesses
+# Thinking Through The Guesses
 It seems that as I've continued my journey through the class, a reoccurring issue has trailing been trailing after me. That is, I have a terrible perception of time! In a long term
 project, it can often be difficult to grasp at the root of an application - what does it mean to make what I am designing? As a result, my estimations were often based off of smoke and mirrors
 before eventually being grounded in a more concrete awareness of how I solve problems. For example, I had a way better idea of the time I take to implement dashboard changes rather than making the dashboard myself.
