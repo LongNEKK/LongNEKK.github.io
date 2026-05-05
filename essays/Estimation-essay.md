@@ -9,7 +9,7 @@ labels:
   - Engineering - UI 
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="../img/Estimation-Coding.png">
+<img width="600px" class="rounded float-start pe-4" src="../img/Estimation-Coding.png">
 
 It seems that as I've continued my journey through the class, a reoccurring issue has trailing been trailing after me. That is, I have a terrible perception of time! In a long term
 project, it can often be difficult to grasp at the root of an application - what does it mean to make what I am designing? As a result, my estimations were often based off of smoke and mirrors
