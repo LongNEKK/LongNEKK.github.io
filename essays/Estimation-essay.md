@@ -9,13 +9,14 @@ labels:
   - Engineering - UI 
 ---
 
-<img width="600px" class="rounded float-start pe-4" src="../img/Estimation-Coding.png">
+
 
 It seems that as I've continued my journey through the class, a reoccurring issue has trailing been trailing after me. That is, I have a terrible perception of time! In a long term
 project, it can often be difficult to grasp at the root of an application - what does it mean to make what I am designing? As a result, my estimations were often based off of smoke and mirrors
 before eventually being grounded in a more concrete awareness of how I solve problems. For example, I had a way better idea of the time I take to implement dashboard changes rather than making the dashboard myself.
 Closed ended problems were easier to estimate and solve than the starting page itself. While I used intuition throughout the project, revisiting the project page only led to more accurate assessments of the time
 to be taken. At the very least, I can assure myself that the estimation process had one positive to be remembered - setting aside a real day!
+<img width="600px" class="rounded float-start pe-4" src="../img/Estimation-Coding.png">
 
 # Making The Best Guess; Taking The First Step
 Similar to my lackadaisical approach of estimating, I found myself only occasionally engaging in timekeeping best practices. Namely, I would often skip out on actual timers in favor of noting the time,
