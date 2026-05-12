@@ -13,5 +13,5 @@ summary: "A Research report and analysis meant to inform an EV Charging Station 
 
 <img class="img-fluid" src="../img/DuckCurve.png">
 
-For the first semester of this long-term project by the Sustainability VIP, we researched and compiled a 30 page report and set plans for a simulator to simulate EV charging station load throughout the year with 15 minute sampling frequencies. This was done to investigate whether EV's will contribute to an increased risk for blackouts due to the additional load on certain portions of campus. In addition, we also wanted a way to determine whether V2G technology is viable in different areas of the campus as a way to reduce load during the peak demand hours as "alternative batteries". 
+For my ICS 314 project, we were tasked with creating a React and Nextjs-powered website with the goal of providing a service to UH community members. In our project, we addressed the need of honest, accessible reviews for professors in the ICS department with the goal of localizing rating services while still allowing the flexibility of providing constructive criticism or praise. Users can browse courses, professors, and reviews as well as submitting some of their own. In addition, the service is provided with the framework that allows for a natural schedule builder extension, but this is relegated to future work. 
 
