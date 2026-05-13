@@ -23,7 +23,7 @@ To discuss my use of AI in the course, it is important to discuss the two contex
 For this, I used Ecosia AI for in-class WODs and practice WODs alike due to its browser accessibility. First, I used these tools to complete WODs if it felt like I was coming under the crunch - this was notably the case for React and Nextjs WODS where there was a lot of boilerplate code to do.
 
 ## 4 Final Project
-Conversely, I used VScode's built-in Copilot extension for the final project especially when designing and debugging production features. This was due to the relative fine-toothed analysis that copilot was able to provide. 
+Conversely, I used VScode's built-in Copilot extension for the final project especially when designing and debugging production features. This was due to the relative fine-toothed analysis that copilot was able to provide. There was considerable complexity when shipping out an application like this, so having a tool that could holistically evaluate the project, and write/debug code was an incredible boon. The docummentation was also a frequent nice-to-have. 
 
 ## 5-14 Essays/ESLInter/Discord Participation/Misc. Activites
 However, writing was left to my own imagination, and my participating in the discord was limited to say the least. As a result, I did not use Fixing ESLint errors was a job for human eyes only - especially type safety as the AI made peculiar mistakes. Writing, documenting, and reading code were all obviously incorporated in my usage of AI. Quality assurance and testing had to be done by me as it is unclear how an AI can accurately evaluate code. Overall, AI was integral to my success in the course, but I limited it to the less creative aspects of the course.
