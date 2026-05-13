@@ -6,7 +6,8 @@ title: "Reflections: AI and I"
 date: 2026-05-012
 published: true
 labels:
-  - Engineering -AI 
+  - Engineering
+  -  AI 
 ---
 
 
