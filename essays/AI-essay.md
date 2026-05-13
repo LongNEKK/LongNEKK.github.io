@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: "Reflections: AI and I"
 # All dates must be YYYY-MM-DD format!
-date: 2026-05-012
+date: 2026-05-12
 published: true
 labels:
   - Engineering
