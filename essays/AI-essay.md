@@ -14,7 +14,7 @@ labels:
 # Introduction
 In a course like software engineering, it has become readily apparent that a digital revolution has occurred. AI tools have made it easier than ever to persist through the fundamnetals, and get to the real meat and potatoes of designing applications. A single prompt can bring forth a new perspective, a new use case, and a new ready-to-use tool. In many ways, the future has found its path. Throughout the course, I have only used two AI tools - each in their own disparate contexts. 
 
-<img width="400px" height="400px" class="rounded float-start pe-4" src="../img/Ecosia.png">
+<img width="400px" class="rounded float-start pe-4" src="../img/Ecosia.png">
 
 # My Jaunts with AI
 To discuss my use of AI in the course, it is important to discuss the two contexts in which I used these tools. 
